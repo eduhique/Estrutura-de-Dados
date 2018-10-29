@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-09-03T16:28:14.275-0300</date>
+  <logger>EDUARDO HENRIQUE PONTES SILVA</logger>
+  <level>FINE</level>
+  <message>File 117210360-EDUARDO HENRIQUE PONTES SILVA.zip was received. It was sent by EDUARDO HENRIQUE PONTES SILVA from IP 150.165.42.174</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-09-03T22:37:14.853-0300</date>
+  <logger>EDUARDO HENRIQUE PONTES SILVA</logger>
+  <level>FINE</level>
+  <message>File 117210360-EDUARDO HENRIQUE PONTES SILVA.zip was received. It was sent by EDUARDO HENRIQUE PONTES SILVA from IP 192.168.15.11</message>
+</record>
