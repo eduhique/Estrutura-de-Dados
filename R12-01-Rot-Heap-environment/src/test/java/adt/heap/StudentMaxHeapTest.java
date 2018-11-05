@@ -20,7 +20,7 @@ public class StudentMaxHeapTest {
 		// TODO Instancie seu comparator para fazer sua estrutura funcionar como
 		// uma max heap aqui. Use instanciacao anonima da interface
 		// Comparator!!!!
-		Comparator<Integer> comparator = null;
+		Comparator<Integer> comparator = (o1,o2) -> o1-o2;
 		heap = new HeapImpl<Integer>(comparator);
 	}
 
@@ -94,10 +94,12 @@ public class StudentMaxHeapTest {
 
 		Comparable<Integer>[] original = heap.toArray();
 
-		Arrays.sort(expected);
-		Arrays.sort(original);
+        Arrays.sort(expected);
+        Arrays.sort(original);
+        System.out.println(Arrays.toString(original));
+        System.out.println(Arrays.toString(expected));
 
-		if (Arrays.equals(expected, original) == false)
+        if (Arrays.equals(expected, original) == false)
 			isHeap = false;
 
 		original = heap.toArray();
