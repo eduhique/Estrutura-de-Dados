@@ -88,14 +88,14 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
         int left = this.left(position);
         int right = this.right(position);
         int largest = position;
-        if (left < this.size() && getComparator().compare(this.getHeap()[left], this.getHeap()[largest]) > 0){
+        if (left < this.size() && getComparator().compare(this.getHeap()[left], this.getHeap()[largest]) > 0) {
             largest = left;
         }
-        if (right < this.size() && getComparator().compare(this.getHeap()[right], this.getHeap()[largest]) > 0){
+        if (right < this.size() && getComparator().compare(this.getHeap()[right], this.getHeap()[largest]) > 0) {
             largest = right;
         }
-        if(largest!=position){
-            Util.swap(getHeap(),position,largest);
+        if (largest != position) {
+            Util.swap(getHeap(), position, largest);
             heapify(largest);
         }
     }
@@ -107,9 +107,9 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
             heap = Arrays.copyOf(heap, heap.length + INCREASING_FACTOR);
         }
         // /////////////////////////////////////////////////////////////////
-        if(element != null){
+        if (element != null) {
             int index = ++this.index;
-            while(index > 0 && getComparator().compare(getHeap()[this.parent(index)], element) < 0){
+            while (index > 0 && getComparator().compare(getHeap()[this.parent(index)], element) < 0) {
                 getHeap()[index] = getHeap()[this.parent(index)];
                 index = this.parent(index);
             }
@@ -120,8 +120,8 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
     @Override
     public void buildHeap(T[] array) {
         this.heap = array;
-        this.index = array.length-1;
-        for (int i = 0; i <array.length/2 ; i++) {
+        this.index = array.length - 1;
+        for (int i = 0; i < array.length / 2; i++) {
             this.heapify(i);
         }
     }
@@ -129,11 +129,12 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
     @Override
     public T extractRootElement() {
         T result = null;
-        if(!this.isEmpty()){
-           result = getHeap()[0];
-           getHeap()[0] = getHeap()[this.size()-1];
-           this.index--;
-           heapify(0);
+        if (!this.isEmpty()) {
+            result = getHeap()[0];
+            getHeap()[0] = null;
+            Util.swap(getHeap(), 0, this.size()-1);
+            index--;
+            heapify(0);
         }
         return result;
     }
@@ -141,7 +142,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
     @Override
     public T rootElement() {
         T result = null;
-        if (!isEmpty()){
+        if (!isEmpty()) {
             result = getHeap()[0];
         }
         return result;
