@@ -17,6 +17,8 @@ import util.Util;
  */
 public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 
+    private static final int INITIAL_SIZE = 20;
+    private static final int INCREASING_FACTOR = 10;
     protected T[] heap;
     protected int index = -1;
     /**
@@ -26,9 +28,6 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
      * como max-heap ou min-heap.
      */
     protected Comparator<T> comparator;
-
-    private static final int INITIAL_SIZE = 20;
-    private static final int INCREASING_FACTOR = 10;
 
     /**
      * Construtor da classe. Note que de inicio a heap funciona como uma
@@ -121,7 +120,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
     public void buildHeap(T[] array) {
         this.heap = array;
         this.index = array.length - 1;
-        for (int i = 0; i < array.length / 2; i++) {
+        for (int i = index / 2; i >= 0; i--) {
             this.heapify(i);
         }
     }
@@ -132,7 +131,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
         if (!this.isEmpty()) {
             result = getHeap()[0];
             getHeap()[0] = null;
-            Util.swap(getHeap(), 0, this.size()-1);
+            Util.swap(getHeap(), 0, this.size() - 1);
             index--;
             heapify(0);
         }
@@ -150,8 +149,26 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 
     @Override
     public T[] heapsort(T[] array) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Not implemented yet!");
+        Comparator<T> originalComparator = this.comparator;
+
+        this.comparator = (o1, o2) -> o1.compareTo(o2); //Garantindo que sempre irá ordenar do menor para o maior.
+
+        buildHeap(array);
+
+        for (int i = array.length - 1; i >= 1; i--) {
+            Util.swap(heap, 0, i);
+            this.index--;
+            this.heapify(0);
+        }
+
+        array = Arrays.copyOf(heap, array.length);
+
+        //Reinicializa a heap
+        index = -1;
+        this.heap = (T[]) (new Comparable[INITIAL_SIZE]);
+        this.comparator = originalComparator;
+
+        return array;
     }
 
     @Override

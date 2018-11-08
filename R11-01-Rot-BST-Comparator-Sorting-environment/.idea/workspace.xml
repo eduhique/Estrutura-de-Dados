@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63342004-adfb-448b-9a7b-1c7badc03ea7" name="Default Changelist" comment="" />
+    <list default="true" id="63342004-adfb-448b-9a7b-1c7badc03ea7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/bst/BSTImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/bst/BSTImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/bst/extended/SortComparatorBSTImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/bst/extended/SortComparatorBSTImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/adt/bst/StudentBSTTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/adt/bst/StudentBSTTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,41 +21,49 @@
     <session id="-1298305412">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="12" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="12" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="java" value="634" />
           <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JAVA" value="634" />
           <entry key="XML" value="12" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
+            <state relative-caret-position="765">
+              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -55,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="3240">
+              <caret line="230" column="12" selection-start-line="230" selection-start-column="12" selection-end-line="230" selection-end-column="12" />
               <folding>
                 <element signature="e#136#137#0" expanded="true" />
                 <element signature="e#172#173#0" expanded="true" />
@@ -72,27 +88,83 @@
                 <element signature="e#1365#1366#0" expanded="true" />
                 <element signature="e#2083#2084#0" expanded="true" />
                 <element signature="e#2121#2122#0" expanded="true" />
-                <element signature="e#6945#6946#0" expanded="true" />
-                <element signature="e#6975#6976#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1933#1934#0" expanded="true" />
+                <element signature="e#1984#1985#0" expanded="true" />
+                <element signature="e#2540#2541#0" expanded="true" />
+                <element signature="e#2579#2580#0" expanded="true" />
+                <element signature="e#4482#4483#0" expanded="true" />
+                <element signature="e#4512#4513#0" expanded="true" />
+                <element signature="e#4570#4571#0" expanded="true" />
+                <element signature="e#4611#4612#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BTNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1126#1127#0" expanded="true" />
+                <element signature="e#1158#1159#0" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1293#1294#0" expanded="true" />
+                <element signature="e#1325#1326#0" expanded="true" />
+                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="e#1386#1387#0" expanded="true" />
+                <element signature="e#1508#1509#0" expanded="true" />
+                <element signature="e#1535#1536#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="420">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3660">
+              <caret line="251" column="5" selection-start-line="251" selection-start-column="5" selection-end-line="251" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -106,6 +178,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java" />
       </list>
     </option>
   </component>
@@ -115,9 +190,26 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Submissao de roteiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Submissao de roteiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,6 +217,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,7 +312,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -227,7 +319,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541108902192" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541347252797" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -247,7 +339,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.StudentBSTTest">
     <configuration name="StudentBSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -262,9 +354,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentBSTTest.testHeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.bst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.bst" />
+      <option name="MAIN_CLASS_NAME" value="adt.bst.StudentBSTTest" />
+      <option name="METHOD_NAME" value="testHeight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentBSTTest.testMinMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.bst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.bst" />
+      <option name="MAIN_CLASS_NAME" value="adt.bst.StudentBSTTest" />
+      <option name="METHOD_NAME" value="testMinMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentBSTTest.testReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.bst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.bst" />
+      <option name="MAIN_CLASS_NAME" value="adt.bst.StudentBSTTest" />
+      <option name="METHOD_NAME" value="testReverse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.StudentBSTTest" />
+      <item itemvalue="JUnit.StudentBSTTest.testReverse" />
+      <item itemvalue="JUnit.StudentBSTTest.testHeight" />
+      <item itemvalue="JUnit.StudentBSTTest.testMinMax" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StudentBSTTest" />
+        <item itemvalue="JUnit.StudentBSTTest.testMinMax" />
+        <item itemvalue="JUnit.StudentBSTTest.testReverse" />
+        <item itemvalue="JUnit.StudentBSTTest.testHeight" />
       </list>
     </recent_temporary>
   </component>
@@ -278,50 +427,78 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541108011772</updated>
-      <workItem from="1541108014353" duration="725000" />
+      <workItem from="1541108014353" duration="7987000" />
+      <workItem from="1541465563789" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentBSTTest - 2018.11.01 at 18h 41m 25s.xml">
+    <history-entry file="StudentBSTTest - 2018.11.02 at 02h 28m 09s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest - 2018.11.02 at 02h 29m 52s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest - 2018.11.02 at 02h 30m 58s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest - 2018.11.02 at 02h 35m 05s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest - 2018.11.02 at 02h 35m 45s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest - 2018.11.02 at 02h 36m 25s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest - 2018.11.02 at 02h 37m 04s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest - 2018.11.02 at 02h 37m 21s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest - 2018.11.02 at 02h 38m 17s.xml">
+      <configuration name="StudentBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentBSTTest - 2018.11.02 at 02h 39m 12s.xml">
       <configuration name="StudentBSTTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="725000" />
+    <option name="totallyTimeSpent" value="7998000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22603719" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37448558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,13 +508,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -352,17 +522,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        <state relative-caret-position="177">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="3240">
+          <caret line="230" column="12" selection-start-line="230" selection-start-column="12" selection-end-line="230" selection-end-column="12" />
           <folding>
             <element signature="e#136#137#0" expanded="true" />
             <element signature="e#172#173#0" expanded="true" />
@@ -378,23 +555,73 @@
             <element signature="e#1365#1366#0" expanded="true" />
             <element signature="e#2083#2084#0" expanded="true" />
             <element signature="e#2121#2122#0" expanded="true" />
-            <element signature="e#6945#6946#0" expanded="true" />
-            <element signature="e#6975#6976#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BTNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="420">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3660">
+          <caret line="251" column="5" selection-start-line="251" selection-start-column="5" selection-end-line="251" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1933#1934#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2540#2541#0" expanded="true" />
+            <element signature="e#2579#2580#0" expanded="true" />
+            <element signature="e#4482#4483#0" expanded="true" />
+            <element signature="e#4512#4513#0" expanded="true" />
+            <element signature="e#4570#4571#0" expanded="true" />
+            <element signature="e#4611#4612#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
