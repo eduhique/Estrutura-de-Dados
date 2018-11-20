@@ -65,4 +65,36 @@ public class StudentTestAVLCountAndFill {
 		assertEquals(0, tree1.LRcount());
 		assertEquals(0, tree1.RLcount());
 	}
+
+	@Test
+	public void testFillWithoutRebalance2() {
+		Integer[] keys = { 12, 10, 14, 11, 13, 15 };
+		tree1.fillWithoutRebalance(keys);
+		assertEquals(0, tree1.LLcount());
+		assertEquals(0, tree1.RRcount());
+		assertEquals(0, tree1.LRcount());
+		assertEquals(0, tree1.RLcount());
+	}
+
+	@Test
+	public void testFillWithoutRebalance3(){
+		tree1 = new AVLCountAndFillImpl<Integer>();
+		tree1.insert(100);
+		tree1.insert(150);
+		tree1.insert(160);
+		assertEquals(1, tree1.RRcount());
+		tree1.insert(170);
+		assertEquals(1, tree1.RRcount());
+		tree1.insert(165);
+		assertEquals(1, tree1.RLcount());
+		tree1.insert(90);
+		tree1.insert(80);
+		assertEquals(1, tree1.LLcount());
+		tree1.insert(50);
+		assertEquals(1, tree1.LLcount());
+		tree1.insert(75);
+		assertEquals(1, tree1.LRcount());
+
+	}
+
 }

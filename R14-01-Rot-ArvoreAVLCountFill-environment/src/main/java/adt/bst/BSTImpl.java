@@ -2,7 +2,7 @@ package adt.bst;
 
 public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 
-   protected BSTNode<T> root;
+   private BSTNode<T> root;
 
    public BSTImpl() {
       root = new BSTNode<T>();
@@ -10,6 +10,10 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 
    public BSTNode<T> getRoot() {
       return this.root;
+   }
+
+   protected void setRoot(BSTNode<T> node){
+      root = node;
    }
 
    @Override
