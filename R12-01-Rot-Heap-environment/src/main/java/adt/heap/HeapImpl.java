@@ -23,7 +23,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
     protected int index = -1;
     /**
      * O comparador é utilizado para fazer as comparações da heap. O ideal é
-     * mudar apenas o comparator e mandar reordenar a heap usando esse
+     * mudar apenas o comparator e mandar reordenar a heap usando esse joseTheDev
      * comparator. Assim os metodos da heap não precisam saber se vai funcionar
      * como max-heap ou min-heap.
      */

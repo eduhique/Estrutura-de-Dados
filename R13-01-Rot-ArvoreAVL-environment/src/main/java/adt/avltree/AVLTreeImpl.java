@@ -36,7 +36,6 @@ public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements 
             }
          }
          this.rebalance(node);
-         this.preOrder();
       }
    }
 

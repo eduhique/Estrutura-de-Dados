@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba5f6010-0d62-4be4-9276-547e1591ae32" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../R12-01-Rot-Heap-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R12-01-Rot-Heap-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R12-01-Rot-Heap-environment/src/main/java/adt/heap/HeapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R12-01-Rot-Heap-environment/src/main/java/adt/heap/HeapImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/bt/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/bt/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/avltree/StudentAVLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/avltree/StudentAVLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/117210360-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/117210360-send.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/src/main/java/adt/btree/BNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/src/main/java/adt/btree/BNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/src/main/java/adt/btree/BTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/src/main/java/adt/btree/BTreeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/src/test/java/adt/btree/StudentTestBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/src/test/java/adt/btree/StudentTestBTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/target/117210360.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/target/117210360.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/target/classes/adt/btree/BNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/target/classes/adt/btree/BNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/target/classes/adt/btree/BTreeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/target/classes/adt/btree/BTreeImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/target/submission-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/target/test-classes/adt/btree/StudentTestBTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R17-01-Rot-ArvoreB-environment/target/test-classes/adt/btree/StudentTestBTree.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +29,11 @@
     <session id="-897488821">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -59,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="180">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#136#137#0" expanded="true" />
@@ -71,18 +83,16 @@
                 <element signature="e#399#400#0" expanded="true" />
                 <element signature="e#736#737#0" expanded="true" />
                 <element signature="e#787#788#0" expanded="true" />
-                <element signature="e#6947#6948#0" expanded="true" />
-                <element signature="e#6977#6978#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1090">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="-692">
+              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,16 +104,16 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/avltree/StudentAVLTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/avltree/StudentBSTTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+            <state relative-caret-position="1830">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-252">
+            <state relative-caret-position="-12">
               <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
             </state>
           </provider>
@@ -123,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BTNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="705">
               <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="e#470#471#0" expanded="true" />
@@ -163,9 +173,9 @@
         <option value="$PROJECT_DIR$/src/test/java/adt/avltree/StudentBSTTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/bst/BSTNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/bt/Util.java" />
         <option value="$PROJECT_DIR$/src/test/java/adt/avltree/StudentAVLTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java" />
       </list>
     </option>
   </component>
@@ -191,7 +201,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="726" />
     <option name="width" value="714" />
     <option name="height" value="900" />
@@ -202,8 +212,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,7 +298,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,6 +431,8 @@
       <updated>1541705667434</updated>
       <workItem from="1541705670137" duration="2389000" />
       <workItem from="1541798084102" duration="8735000" />
+      <workItem from="1543452784751" duration="748000" />
+      <workItem from="1543955480638" duration="106000" />
     </task>
     <servers />
   </component>
@@ -457,13 +469,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11124000" />
+    <option name="totallyTimeSpent" value="11978000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.23319027" />
-      <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" visible="true" weight="0.23319027" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49638554" weight="0.2360515" />
+      <window_info id="Structure" order="1" sideWeight="0.5036145" side_tool="true" weight="0.2360515" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -489,7 +502,7 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="8" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,10 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="290" selection-start-line="290" selection-end-line="290" />
-          <folding>
-            <element signature="e#11040#11204#0" expanded="true" />
-            <element signature="e#11203#11204#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,15 +565,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-163">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/avltree/StudentAVLTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/avltree/StudentBSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BTNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="705">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#470#471#0" expanded="true" />
@@ -591,54 +632,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#6947#6948#0" expanded="true" />
-            <element signature="e#6977#6978#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-12">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1090">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/avltree/StudentAVLTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/avltree/StudentBSTTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        <state relative-caret-position="-692">
+          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
